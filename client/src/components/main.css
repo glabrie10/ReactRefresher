@@ -1,0 +1,13 @@
+.backround {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  overflow-x: hidden;
+
+}
