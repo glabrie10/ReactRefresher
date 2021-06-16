@@ -1,4 +1,7 @@
 class Hello extends React.Component {
+	static defaultProps = {
+		to:'Greg'
+	}
 	render() {
     console.log(this.props)
 		return (
