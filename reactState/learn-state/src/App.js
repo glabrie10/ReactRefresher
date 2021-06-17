@@ -1,7 +1,8 @@
 
 import React, {Component} from 'react';
-import Game from './game';
-import Random from './random'
+import Game from './Game';
+import Random from './Random'
+import ClickChangeState from './ClickChangeState'
 import './App.css';
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
     <div className="App">
       <Game/>
       <Random maxNum = {7} />
+      <ClickChangeState />
     </div>
   );
 }
