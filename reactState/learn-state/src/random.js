@@ -10,7 +10,7 @@ class Random extends Component {
     setInterval(() => {
       let newRandom = Math.floor(Math.random() * this.props.maxNum)
       this.setState({num: newRandom})
-    },1000)
+    },5000)
   }
     render(){
       return (
