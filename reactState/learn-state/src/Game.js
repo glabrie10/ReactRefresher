@@ -4,6 +4,7 @@ import React, { Component } from 'react';
 class Game extends Component {
   constructor(props){
     super(props);
+    // passes prop to the constructor when rendered in apps with props to pass back
     this.state = {
       score: 0,
       gameOver: false
