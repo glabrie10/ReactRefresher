@@ -1,3 +1,5 @@
+// changing state when state is an array
+
 import React, { Component } from "react";
 
 class MutableData extends Component {
@@ -25,21 +27,17 @@ class MutableData extends Component {
   }
 
   addIcon() {
-    const icons = ["bone, cloud"]
     let idx = Math.floor(Math.random() * this.props.options.length);
     let newIcon = this.props.options[idx];
     this.setState({ icons: [...this.state.icons, newIcon] });
-    console.log(newIcon)
-    console.log('icons', icons)
   }
   render() {
     // const icons = this.state.icons.map(i => <i className={`fas fa-${i}`} />);
-    const icons = ["bobe, cloud"]
-
+    // const icons =  this.state.icons.map(i => this.props.options[i]);
     return (
       <div>
-        <h1>Icons: {icons}</h1>
-        <button onClick={this.addIcon}>Add New Icon</button>
+        <h1>Icons: {this.state.icons}</h1>
+        <button onClick={this.addIcon}>Add</button>
       </div>
     );
   }

@@ -5,16 +5,19 @@ import Random from './Random'
 import ClickChangeState from './ClickChangeState'
 import CallBackUpdateState from './CallBackUpdateState'
 import MutableData from "./MutableData"
+import Ball from './Lottery/Ball'
+import Lottery from './Lottery/Lottery'
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      {/* <Game/>
+      <Game/>
       <Random maxNum = {7} />
       <ClickChangeState />
-      <CallBackUpdateState /> */}
+      <CallBackUpdateState />
       <MutableData />
+      <Lottery />
     </div>
   );
 }
