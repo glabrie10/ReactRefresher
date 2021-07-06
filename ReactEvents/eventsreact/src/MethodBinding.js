@@ -30,6 +30,7 @@ class MethodBind extends Component {
             Constructor Bind
           </div>
         </div>
+        /// constructor bind allows you to only bind once with es6 classes
 
       );
     }
