@@ -20,3 +20,6 @@ class BetterNumberItem extends Component {
 }
 
 export default BetterNumberItem;
+
+
+/// don't use data as index when removing or adding
