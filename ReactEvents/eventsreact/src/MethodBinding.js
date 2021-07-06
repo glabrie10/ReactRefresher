@@ -26,6 +26,9 @@ class MethodBind extends Component {
           <div className='WiseSquare' onMouseEnter={() => this.dispenseWisdom()}>
             arrow function Binding
           </div>
+          <div className='WiseSquare' onMouseEnter={this.dispenseWisdom}>
+            Constructor Bind
+          </div>
         </div>
 
       );
