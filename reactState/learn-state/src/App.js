@@ -5,8 +5,8 @@ import Random from './Random'
 import ClickChangeState from './ClickChangeState'
 import CallBackUpdateState from './CallBackUpdateState'
 import MutableData from "./MutableData"
-import Ball from './Lottery/Ball'
 import Lottery from './Lottery/Lottery'
+import Counter from './Coin/Counter'
 import './App.css';
 
 function App() {
@@ -18,6 +18,7 @@ function App() {
       <CallBackUpdateState />
       <MutableData />
       <Lottery />
+      <Counter />
     </div>
   );
 }
