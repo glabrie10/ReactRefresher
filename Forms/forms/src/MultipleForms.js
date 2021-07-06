@@ -8,6 +8,7 @@ class MultipleForm extends Component {
     this.handleSubmit = this.handleSubmit.bind(this);
   }
   handleChange(evt) {
+    // computed property Name
     this.setState({ [evt.target.name]: evt.target.value });
   }
   handleSubmit(evt) {
@@ -51,4 +52,5 @@ class MultipleForm extends Component {
 export default MultipleForm;
 
 
-//
+//computed property name
+// when making labels use htmlFor
