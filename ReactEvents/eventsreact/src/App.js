@@ -3,6 +3,7 @@ import Event from './Event'
 import MethodBind from './MethodBinding'
 import ExperimentalSquare from './AlternativeBinding'
 import ArgumentBind from './BindingArguments'
+import BetterNumberList from './PassingMethods/BetterNumberList'
 import './App.css';
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
           < MethodBind />
           < ExperimentalSquare />
           < ArgumentBind />
+          < BetterNumberList />
 
       </header>
     </div>
