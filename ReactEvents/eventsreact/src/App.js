@@ -1,5 +1,6 @@
 import React from 'react'
 import Event from './Event'
+import MethodBind from './MethodBinding'
 import './App.css';
 
 function App() {
@@ -8,6 +9,8 @@ function App() {
       <header className="App-header">
           React Events
           < Event />
+          < MethodBind />
+
 
       </header>
     </div>

@@ -14,7 +14,6 @@ class MethodBind extends Component {
     };
 
     dispenseWisdom() {
-      console.log("THIS IS...", this);
       let { messages } = this.props;
       let rIndex = Math.floor(Math.random() * messages.length);
       console.log(messages[rIndex]);
@@ -24,7 +23,11 @@ class MethodBind extends Component {
       return (
         <div className='WiseSquare' onMouseEnter={this.dispenseWisdom.bind(this)}>
           Inline Binding
+          <div className='WiseSquare' onMouseEnter={() => this.dispenseWisdom()}>
+            arrow function Binding
+          </div>
         </div>
+
       );
     }
   }
